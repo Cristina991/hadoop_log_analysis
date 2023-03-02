@@ -1,0 +1,110 @@
+.el-cascader{width:100%}
+.fullscreen{
+    position:fixed!important;
+    top:0!important;
+    left:0!important;
+    width:100%!important;
+    height:100%!important;
+    margin:0!important;
+    z-index:9999
+}
+.screen-container{
+    width:100%;height:100%;padding:0 20px;
+    background-color:#161522;
+    color:#fff;
+    box-sizing:border-box
+}
+.screen-header{
+    width:100%;height:64px;font-size:20px;position:relative
+}
+.screen-header>div img{width:100%}
+.screen-header .title{
+    position:absolute;left:50%;top:50%;font-size:20px;
+    transform:translate(-50%,-50%)
+}
+.screen-header .title-right{
+    display:flex;align-items:center;position:absolute;
+    right:0;top:50%;transform:translateY(-80%)
+}
+.screen-header .qiehuan{
+    width:28px;height:21px;cursor:pointer
+}
+.screen-header .datetime{font-size:15px;margin-left:10px}
+.screen-header .logo{
+    position:absolute;left:0;top:50%;cursor:pointer;
+    transform:translateY(-80%)
+}
+.screen-header .logo a{text-decoration:none}
+.screen-body{width:100%;height:100%;display:flex;margin-top:10px}
+.screen-body .screen-left{height:100%;width:27.6%}
+.screen-body .screen-left #left-top{height:53%;position:relative}
+.screen-body .screen-left #left-bottom{
+    height:31%;margin-top:25px;position:relative
+}
+.screen-body .screen-middle{
+    height:100%;width:41.5%;margin-left:1.6%;margin-right:1.6%
+}
+.screen-body .screen-middle #middle-top{
+    width:100%;height:56%;position:relative
+}
+.screen-body .screen-middle #middle-bottom{
+    margin-top:25px;width:100%;height:28%;position:relative
+}
+.screen-body .screen-right{height:100%;width:27.6%}
+.screen-body .screen-right #right-top{height:46%;position:relative}
+.screen-body .screen-right #right-bottom{
+    height:38%;margin-top:25px;position:relative
+}
+.resize{
+    position:absolute;right:20px;top:20px;cursor:pointer
+}
+.icon-enter{margin-left:5px}
+
+.left-col {
+    /*background: #00ff00;*/
+    float: left;
+    height: 100%;
+}
+.center-col {
+    /*background: #3a8ee6;*/
+    float: left;
+    height: 100%;
+}
+.right-col{
+    /*background: #e6a23c;*/
+    float: left;
+    height: 100%;
+}
+.circle{
+    box-sizing: border-box;
+}
+.out{
+    position: relative;
+    width:136px;
+    height: 136px;
+    border-radius: 50%;
+
+}
+.in{
+    position: absolute;
+    z-index: 5;
+    width:126px;
+    height: 126px;
+    border-radius: 50%;
+    background-color: #fff;
+    text-align: center;
+    margin: auto;        /*以下五个属性为水平垂直居中的方法*/
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+}
+.grade_num {
+    font-size: 30px;
+    line-height: 1px;
+}
+.grade_show_text {
+    font-size:20px;
+
+}
+

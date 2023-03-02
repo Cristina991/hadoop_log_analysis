@@ -1,0 +1,190 @@
+.login_container{
+    height:100%;
+    background-color:#2b4b6b;
+    display:flex;
+    justify-content:center;
+    align-items:center
+}
+
+.login_box{
+    width:450px;
+    height:300px;
+    background:#fff;
+    border-radius:3px;
+    position:absolute
+}
+
+.login_box .avatar{
+    width:130px;
+    height:130px;
+    border:1px solid #eee;
+    border-radius:50%;
+    padding:5px;
+    position:absolute;
+    left:50%;
+    transform:translate(-50%,-50%);
+    background-color:#fff
+}
+
+.login_box .avatar img{
+    width:130px;
+    height:130px;
+    border-radius:50%
+}
+
+.login_form{
+    position:absolute;
+    bottom:0;
+    width:100%;
+    padding:0 20px;
+    box-sizing:border-box
+}
+
+.btns{
+    display:flex;
+    justify-content:flex-end
+}
+
+.screenfull-svg{
+    display:inline-block;
+    cursor:pointer;
+    fill:#5a5e66;
+    width:20px;
+    height:20px;
+    margin-right:15px
+}
+
+.home-container{
+    height:100%
+}
+
+.el-header{
+    background-color:#373d41
+}
+
+.el-header,.el-header div{
+    display:flex;
+    justify-content:space-between;
+    align-items:center
+}
+
+.el-header div{
+    color:#fff;
+    font-size:22px;
+    font-weight:700
+}
+
+.el-header div #version{
+    font-weight:400;
+    font-size:16px;
+    margin-left:20px
+}
+
+.el-header div img{
+    width:58px;
+    height:58px;
+    border-radius:50%;
+    margin-right:20px
+}
+
+.el-aside{
+    background-color:#333744
+}
+
+.el-main{
+    position:relative;
+    background-color:#eaedf1
+}
+
+.el-menu{
+    border-right:none
+}
+
+.iconfont{
+    margin-right:10px
+}
+
+.toggle-button{
+    background-color:#4a5064;
+    color:#fff;
+    font-size:18px;
+    line-height:24px;
+    text-align:center;
+    letter-spacing:.1em;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none
+}
+
+.d-flex{
+    display:flex;
+    justify-content:center;
+    align-items:center
+}
+
+#user-avatar{
+    width:45px;
+    height:45px;
+    border-radius:10px;
+    margin-right:0
+}
+
+a{
+    text-decoration:none
+}
+
+#user-name{
+    font-weight:400;
+    margin-right:25px;
+    font-size:18px
+}
+
+.github-corner:hover .octo-arm{
+    -webkit-animation:octocat-wave-data-v-38ecb41f .56s ease-in-out;
+    animation:octocat-wave-data-v-38ecb41f .56s ease-in-out
+}
+
+@-webkit-keyframes octocat-wave-data-v-38ecb41f{
+    0%,to{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@keyframes octocat-wave-data-v-38ecb41f{0%,to{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm[data-v-38ecb41f]{-webkit-animation:none;animation:none}.github-corner .octo-arm[data-v-38ecb41f]{-webkit-animation:octocat-wave-data-v-38ecb41f .56s ease-in-out;animation:octocat-wave-data-v-38ecb41f .56s ease-in-out}}
+
+#github{
+    position:absolute;
+    top:0;
+    right:0;
+    border:none
+}
+
+.welcome{
+    margin-top:10px;
+    padding:0 10px
+}
+
+.welcome .el-row .el-card__body{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;padding:20px
+}
+
+.welcome .el-row .el-card__body .iconfont{
+    font-size:48px
+}
+
+.welcome .el-row .el-card__body div.left{
+    padding:10px;
+    border-radius:5px
+}
+
+.welcome .el-row .el-card__body div.right{
+    height:68px;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-around;
+    align-items:flex-start
+}
+
+.welcome .el-row .el-card__body:hover{
+    cursor:pointer
+}
+
+.welcome #line{margin-top:15px}
